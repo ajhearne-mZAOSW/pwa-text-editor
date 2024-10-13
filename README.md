@@ -59,16 +59,19 @@ THEN I should have proper build scripts for a webpack application
 
 ## Installation
 
-1. Clone the repository to your local machine:
+### Local Installation
+
+1. Clone the repository [https://github.com/ajhearne-mZAOSW/pwa-text-editor.git](https://github.com/ajhearne-mZAOSW/pwa-text-editor.git) to your local machine:
 
     ```md
     git clone https://github.com/ajhearne-mZAOSW/pwa-text-editor.git
     ```
 
-2. Navigate to the project directory:
+2. Navigate to the project directory and open in an IDE:
 
     ```md
     cd pwa-text-editor
+    code .
     ```
 
 3. Install the necessary dependencies:
@@ -87,9 +90,17 @@ THEN I should have proper build scripts for a webpack application
 
 ## Usage
 
-- **Online**: Access the app via the browser, add, edit, and save text seamlessly.
+- **Online**: Access the app via the browser, add, edit, and save text seamlessly at [https://pwa-text-editor-ksm7.onrender.com/](https://pwa-text-editor-ksm7.onrender.com/)
 - **Offline**: The app will continue to function offline using cached assets and IndexedDB for persistent data storage.
 - **Install**: You can install the app directly from your browser for easy access as a desktop or mobile application.
+
+The following images show the web application's appearance and functionality:
+
+![A web browser window features the J.A.T.E application and the generated service workers.](./assets/images/demo.png)
+
+![A web browser window features the J.A.T.E application and the PWA install prompt.](./assets/images/install.png)
+
+![An app windows features the installed and locally available J.A.T.E app](./assets/images/app.png)
 
 ### Steps to Install as a PWA
 
